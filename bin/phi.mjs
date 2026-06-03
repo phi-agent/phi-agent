@@ -47,14 +47,14 @@ try {
   console.error(
     `phi: pi-CLI nicht gefunden unter ${piPkgRoot}.\n` +
       `Fehler: ${err?.message ?? err}\n` +
-      `Versuch: npm install -g @mounta11n/phi-agent`,
+      `Versuch: npm install -g phi-agent`,
   );
   process.exit(1);
 }
 if (!existsSync(piEntry)) {
   console.error(
     `phi: pi nicht gefunden an ${piEntry}.\n` +
-      `Versuch: npm install -g @mounta11n/phi-agent`,
+      `Versuch: npm install -g phi-agent`,
   );
   process.exit(1);
 }

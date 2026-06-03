@@ -34,13 +34,13 @@ Warum noch eine Pi-Distribution? Weil:
 **Voraussetzung:** Node.js ≥ 22.19.0
 
 ```bash
-npm install -g @mounta11n/phi-agent
+npm install -g phi-agent
 ```
 
 Oder mit bun:
 
 ```bash
-bun add -g @mounta11n/phi-agent
+bun add -g phi-agent
 ```
 
 ## Verwendung
@@ -136,3 +136,4 @@ phi baut auf [pi] und [little-coder] auf, beide Apache 2.0 lizenziert.
 
 [pi]: https://pi.dev
 [little-coder]: https://github.com/itayinbarr/little-coder
+[phi]: https://github.com/phi-agent/phi-agent
