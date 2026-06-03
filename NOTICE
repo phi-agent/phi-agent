@@ -1,0 +1,17 @@
+phi
+Copyright 2026 mounta11n
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+
+---
+
+This product includes software developed by:
+  - pi (Mario Zechner) — https://pi.dev | Apache 2.0 / MIT
+  - little-coder (Itay Inbar) — https://github.com/itayinbarr/little-coder | Apache 2.0
+
+This product includes extensions, skills, and architecture derived from
+little-coder (https://github.com/itayinbarr/little-coder), which is itself
+built on pi (https://pi.dev). Both are used under the Apache 2.0 license.
+
+See LICENSE for full license text.

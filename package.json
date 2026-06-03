@@ -1,0 +1,42 @@
+{
+  "name": "@mounta11n/phi-agent",
+  "version": "0.1.0",
+  "description": "phi — Eine local-model-first Pi-Distribution, optimiert für llama.cpp. Poor-man's-ai-companion.",
+  "homepage": "https://github.com/mounta11n/phi-agent",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mounta11n/phi-agent.git"
+  },
+  "license": "Apache-2.0",
+  "author": "mounta11n",
+  "type": "module",
+  "bin": {
+    "phi": "bin/phi.mjs"
+  },
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "files": [
+    "bin/",
+    "AGENTS.md",
+    "skills/",
+    ".pi/extensions/",
+    ".pi/settings.json",
+    "models.json",
+    "LICENSE",
+    "NOTICE",
+    "README.md"
+  ],
+  "scripts": {
+    "pi": "pi",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "dependencies": {
+    "@earendil-works/pi-coding-agent": "^0.75.3",
+    "@sinclair/typebox": "^0.34.49",
+    "playwright": "^1.59.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
