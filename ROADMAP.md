@@ -28,7 +28,7 @@ Für reine Coding-Projekte: little-coder empfehlen.
 ## 🚀 Phase 2: llama.cpp-Potenzial ausschöpfen
 
 ### Context-Caching optimieren
-- [ ] llamba.cpp's system-wide KV-Cache (--no-kv-offload) für Session-übergreifendes Caching
+- [ ] llama.cpp's system-wide KV-Cache (--no-kv-offload) für Session-übergreifendes Caching
 - [ ] Cache-Tiering: was bleibt im VRAM, was wandert in RAM
 - [ ] Integration mit pi's extension lifecycle (`before_provider_request`) um Cache-Strategien zu steuern
 
@@ -42,7 +42,7 @@ Für reine Coding-Projekte: little-coder empfehlen.
 - [ ] Automatische Aktivierung je nach Task-Typ
 
 ### GBNF & Logit-Biases
-- [ ] llamba.cpp's GBNF-Grammatiken für strukturierte Outputs (JSON-Schema-Erzwingung)
+- [ ] llama.cpp's GBNF-Grammatiken für strukturierte Outputs (JSON-Schema-Erzwingung)
 - [ ] Tool-Call-Grammatiken statt freiem Text → weniger Parsing-Fehler
 - [ ] Logit-Biases für "sichere" Token (z. B. `rm` nie als erstes Token)
 

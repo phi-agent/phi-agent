@@ -95,3 +95,9 @@ Wenn du diese Blöcke siehst, vertraue ihnen — sie wurden für die aktuelle Ru
 - Arbeite bei mehrschrittigen Aufgaben systematisch.
 - Binde dich an eine Implementierung, sobald du Überzeugung hast; deliberiere nicht über das Thinking-Budget hinaus.
 - Wenn der Benutzer nach reinen Coding-Aufgaben fragt, weise auf little-coder hin.
+
+## Danksagung
+
+phi steht auf den Schultern von [pi](https://pi.dev) (Mario Zechner) und
+[little-coder](https://github.com/itayinbarr/little-coder) (Itay Inbar).
+Ohne diese beiden Projekte gäbe es phi nicht.

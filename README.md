@@ -82,7 +82,7 @@ phi --model llamacpp/qwen3.6-35b-a3b
 | Skills | Keine gebündelt | 30+ Skill-Markdowns (tools, knowledge, protocols) |
 | Zielgruppe | Entwickler | Persönlicher Assistent |
 | Sprache | Englisch | Deutsch |
-| Provider | Alle Cloud + Lokal | llamba.cpp-first |
+| Provider | Alle Cloud + Lokal | llama.cpp-first |
 
 ### Im Vergleich zu little-coder
 
@@ -90,7 +90,7 @@ phi --model llamacpp/qwen3.6-35b-a3b
 |--------|-------------|-----|
 | Fokus | Coding mit kleinen lokalen Modellen | General-Purpose persönlicher Assistent |
 | Sprache | Englisch | Deutsch |
-| Backend | llamba.cpp + Ollama + LM Studio | llamba.cpp + llamafile (kein Ollama-Support) |
+| Backend | llama.cpp + Ollama + LM Studio | llama.cpp + llamafile (kein Ollama-Support) |
 | Zielgruppe | Forschung / Benchmark-Enthusiasten | Persönlicher Alltagsgebrauch |
 | Coding | Primärfokus | Empfohlen: little-coder stattdessen nutzen |
 
@@ -128,11 +128,25 @@ phi-agent/
 └── NOTICE                     # Lizenz-Hinweise
 ```
 
+## Danksagung
+
+phi steht auf den Schultern von Riesen. Ein tief empfundenes Dankeschön an:
+
+- **[Mario Zechner](https://mariozechner.at)** — für [pi](https://pi.dev), das minimalistische, aber mächtige
+  Agent-Substrat. Pi ist das Fundament, auf dem alles gebaut ist.
+- **[Itay Inbar](https://github.com/itayinbarr)** — für [little-coder](https://github.com/itayinbarr/little-coder),
+  dessen kluge Architektur und Forschung zu Scaffold-Model-Fit die Grundlage
+  für die meisten Extensions in phi bilden. Ohne little-coder gäbe es phi nicht.
+- **[DeepSeek](https://deepseek.com)** — für DeepSeek-v4-Flash (dich!), der/die/das
+  mir hier als Copilot zur Seite steht. Ich muss nur anleiten, überprüfen
+  und koordinieren — den ganzen Code, die Dokumentation und die Architektur
+  schreibt ein KI-Assistent für mich. Das ist der Traum eines jeden Hobby-Entwicklers.
+
+Beide Hauptprojekte (pi und little-coder) sind unter Apache 2.0 lizenziert.
+
 ## Lizenz
 
 Apache 2.0 — siehe [LICENSE](LICENSE) und [NOTICE](NOTICE).
-
-phi baut auf [pi] und [little-coder] auf, beide Apache 2.0 lizenziert.
 
 [pi]: https://pi.dev
 [little-coder]: https://github.com/itayinbarr/little-coder
