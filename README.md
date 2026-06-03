@@ -92,7 +92,7 @@ phi --model llamacpp/qwen3.6-35b-a3b
 | Sprache | Englisch | Deutsch |
 | Backend | llama.cpp + Ollama + LM Studio | llama.cpp + llamafile (kein Ollama-Support) |
 | Zielgruppe | Forschung / Benchmark-Enthusiasten | Persönlicher Alltagsgebrauch |
-| Coding | Primärfokus | Empfohlen: little-coder stattdessen nutzen |
+| Coding | Primärfokus | Wird nicht empfohlen. Nimm lieber little-coder |
 
 ## Projektstruktur
 
@@ -137,10 +137,10 @@ phi steht auf den Schultern von Riesen. Ein tief empfundenes Dankeschön an:
 - **[Itay Inbar](https://github.com/itayinbarr)** — für [little-coder](https://github.com/itayinbarr/little-coder),
   dessen kluge Architektur und Forschung zu Scaffold-Model-Fit die Grundlage
   für die meisten Extensions in phi bilden. Ohne little-coder gäbe es phi nicht.
-- **[DeepSeek](https://deepseek.com)** — für DeepSeek-v4-Flash (dich!), der/die/das
+- **[DeepSeek](https://deepseek.com)** — das Modell DeepSeek-v4-Flash, das
   mir hier als Copilot zur Seite steht. Ich muss nur anleiten, überprüfen
   und koordinieren — den ganzen Code, die Dokumentation und die Architektur
-  schreibt ein KI-Assistent für mich. Das ist der Traum eines jeden Hobby-Entwicklers.
+  schreibt der KI-Assistent für mich. Das ist der Traum eines jeden Hobby-Entwicklers.
 
 Beide Hauptprojekte (pi und little-coder) sind unter Apache 2.0 lizenziert.
 
